@@ -10,18 +10,21 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="css/site.css" rel="stylesheet">
 </head>
 
 <body class="bodyBG">
   <div class="container">
-      <h1 class="mt-2 text-light text-center">Contact Me</h1>
+      <h1 class="m-3 text-light text-center">Contact Me</h1>
       <form class="row rows-cols-1 g-2 p-2 bg-light">
         <!--First Name-->              
           <div class="col-12 col-md-6">
             <label for="firstName" class="form-label">First Name</label>
-            <input id="firstName" placeholder="First name" class="form-control">
+            <div class="form-input form-control">
+              <span class="icon"><i class="fas fa-address-card"></i></span>
+              <input id="firstName" placeholder="First name" class="inputField form-control">
+            </div>
           </div>
           <!--Last Name-->  
           <div class="col-12 col-md-6">
