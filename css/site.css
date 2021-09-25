@@ -1,0 +1,46 @@
+body {
+  background: #0575E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021B79, #0575E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.formDesign {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buttonDesign {
+  align-self: flex-start;
+}
+
+.form-input {
+  width: 100%;
+  position: relative;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0;
+  border: 0;
+}
+
+.addressIcon {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 25px;
+}
+
+.redoIcon {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 1px 5px;
+}

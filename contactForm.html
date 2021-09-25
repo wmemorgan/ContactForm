@@ -10,49 +10,63 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="css/site.css" rel="stylesheet">
 </head>
 
 <body>
        <div class="container">
-           <h1 class="mt-5">Contact Me</h1>
-           <form>
-             <!--Form container-->  
-             <div class="row">
-              <!--First Name-->              
-               <div class="col">
-                 <div></div>
-               </div>
-               <!--Last Name-->  
-               <div class="col">
-                 <div></div>
-               </div>
-             </div>
-             <div class="row">
-               <!--Email-->  
-               <div class="col">
-                 <div></div>
-               </div>
-               <!--Phone-->  
-               <div class="col">
-                 <div></div>
-               </div>               
-             </div>
-             <div class="row">
-               <!--Subject-->  
-               <div class="col">
-                 <div></div>
-               </div>
-             </div>
-             <div class="row">
-               <!--Message-->  
-               <div class="col">
-                 <div></div>
-               </div>            
-             </div>
-             <button>Submit</button>
-           </form>
+         <h1 class="mt-5 text-light text-center">Contact Me</h1>
+        <!--Form container-->
+         <div class="p-2 bg-light border border-2 border-info shadow-lg">
+          <form action="#" class="formDesign">  
+            <div class="row">
+            <!--First Name-->              
+              <div class="col">
+              <label for="firstName" class="form-label">First Name</label>
+              <div class="form-input form-control">
+                <span class="addressIcon"><i class="fas fa-address-card"></i></span>
+                <input id="firstName" name="firstName" placeholder="First name" aria-label="First Name" class="inputField form-control">
+              </div>
+              </div>
+              <!--Last Name-->  
+              <div class="col">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input id="lastName" name="lastName" placeholder="Last name" aria-label="Last Name" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <!--Email-->  
+              <div class="col">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" class="form-control">
+              </div>
+              <!--Phone-->  
+              <div class="col">
+              <label for="phone" class="form-label">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="Phone" aria-label="Phone" class="form-control">
+              </div>               
+            </div>
+            <div class="row">
+              <!--Subject-->  
+              <div class="col">
+              <label for="subject" class="form-label">Subject</label>
+              <input id="subject" name="subject" placeholder="Subject" aria-label="Subject" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <!--Message-->  
+              <div class="col">
+              <label for="message" class="form-label">Message</label>
+              <div class="form-input form-control">
+                <span class="redoIcon bg-success rounded-circle"><i class="fas fa-redo"></i></span>
+                <textarea id="message" name="message" placeholder="Message" aria-label="Message" class="inputField form-control"></textarea>
+              </div>
+              </div>            
+            </div>
+            <button type="button" class="buttonDesign btn btn-primary">Submit</button>
+          </form>
+        </div>  
        </div>
 
     <!-- Bootstrap JS -->
